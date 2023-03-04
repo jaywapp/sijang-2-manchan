@@ -7,12 +7,13 @@ const TitleDiv = styled.div`
     text-align: center;
 `;
 
-function TitleBar(){
+
+function Header(){
     return (
         <TitleDiv>
-            <img src={longlogo} width='400px'/>            
+            <img src={longlogo} width='350px'/>            
         </TitleDiv>
     )
 }
 
-export default TitleBar;
+export default Header;

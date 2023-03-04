@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Filter from './components/Filter'
-import FeedBlocks from './components/FeedBlocks'
-import TitleBar from './components/TitleBar';
+import Body from './components/Body'
+import Header from './components/Header';
 
 function App() {
   return (
     <div>
-      <TitleBar/>
-      <Filter/>
-      <FeedBlocks/>
+      <Header/>
+      <Body/>
     </div>
   );
 }

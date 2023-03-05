@@ -1,14 +1,18 @@
-import FeedBlock from "./FeedBlock";
 import styled from 'styled-components';
 import FeedBlocks from './FeedBlocks';
 import { Filter, Filtering } from "./Filter";
 import { Sort, Sorting } from "./Sort";
 import { useState } from "react";
+import { Reference } from './Body.Style';
 
 const BodyDiv = styled.div`
     display: grid;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    text-align: center;
+    align-items: center;
+    align-self: center;
 `;
 
 const SortDiv = styled.div`
@@ -54,6 +58,7 @@ function Body ( datas ){
             <FeedBlocksDiv>
                 <FeedBlocks/>
             </FeedBlocksDiv>
+            <Reference row={4}/>
         </BodyDiv>
     )
 }

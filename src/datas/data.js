@@ -1,24 +1,21 @@
 const api = 'api.odcloud.kr/api/15052836/v1/uddi:2253111c-b6f3-45ad-9d66-924fd92dabd7';
 const auth = 'R8PD%2FDyE0QDwxkY1%2BEHvAEUOI0jhk1%2F%2F0AZ7ufTi9Btqed6A1jAgvR31wTp5GLn%2FjUtFdhLMdrbAPlTGUqj6bA%3D%3D';
-const perPage = 10;
+const perPage = 9;
+
 let page = 1;
+let Datas = new Array();
 
-let array = new Array();
-
-function Datas() {
-
-    return array;
-}
-
-const Update = async () =>{
+const Update = async ( callback ) =>{
 
     let url = Url(page++, perPage);
 
     const res = await fetch(url).then((res) => res.json());
 
     res.data.forEach(d => {
-        array.push(d);
+        Datas.push(d);
     });
+
+    callback();
 }
 
 function Url(page, perPage){

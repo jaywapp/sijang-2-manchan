@@ -15,9 +15,11 @@ const FeedBlockDiv = styled.div`
 
 
 function FeedBlock( data ) {
+    console.log(data["시장명"]);
+
     return (
         <FeedBlockDiv>
-            This is FeedBlock
+            <h1>{data["시장명"]}</h1>
         </FeedBlockDiv>
     )
 }

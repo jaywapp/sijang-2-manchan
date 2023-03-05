@@ -4,13 +4,11 @@ import styled, { css } from 'styled-components';
 
 const FeedBlockDiv = styled.div`
     display: grid;
-    grid-template-columns: 200px 2fr 2fr 1fr 1fr;
+    grid-template-columns: 200px auto 2fr 1fr 1fr;
     grid-template-rows: 3fr 2fr 2fr;
     
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
 
     text-align: center;
     border-radius: 5mm;
@@ -37,6 +35,7 @@ const FeedBlockAddressHeader1 = styled.div`
     grid-row: 2;
     grid-column: 2;
     margin-left: 10px;
+    margin-right: 10px;
     display: flex;
 `
 
@@ -44,6 +43,7 @@ const FeedBlockAddressHeader2 = styled.div`
     grid-row: 3;
     grid-column: 2;
     margin-left: 10px;
+    margin-right: 10px;
     display: flex;
 `
 

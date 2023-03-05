@@ -18,10 +18,6 @@ const FeedBlockDiv = styled.div`
     box-shadow: 2px 2px 2px 2px lightgray;
 `
 
-const flexable = styled.div`
-    display: flex;
-`
-
 const FeedBlockImg = styled.div`
     grid-row-start: 1;
     grid-row-end: 4;
@@ -29,45 +25,52 @@ const FeedBlockImg = styled.div`
     background-color: black;
 `
 
-const FeedBlockTitle = styled.h2(flexable)`
+const FeedBlockTitle = styled.div`
     grid-row: 1;
     grid-column-start: 2;
     grid-column-end: 4;
     margin-left: 10px;
+    display: flex;
 `
 
-const FeedBlockAddressHeader1 = styled.div(flexable)`
+const FeedBlockAddressHeader1 = styled.div`
     grid-row: 2;
     grid-column: 2;
     margin-left: 10px;
+    display: flex;
 `
 
-const FeedBlockAddressHeader2 = styled.div(flexable)`
+const FeedBlockAddressHeader2 = styled.div`
     grid-row: 3;
     grid-column: 2;
     margin-left: 10px;
+    display: flex;
 `
 
-const FeedBlockAddress1 = styled.div(flexable)`
+const FeedBlockAddress1 = styled.div`
     grid-row: 2;
     grid-column-start: 3;
     grid-column-end: 6;
+    display: flex;
 `
 
-const FeedBlockAddress2 = styled.div(flexable)`
+const FeedBlockAddress2 = styled.div`
     grid-row: 3;
     grid-column-start: 3;
     grid-column-end: 6;
+    display: flex;
 `
 
-const FeedBlockToilet = styled.div(flexable)`
+const FeedBlockToilet = styled.div`
     grid-row: 1;
     grid-column: 4;
+    display: flex;
 `;
 
-const FeedBlockParking = styled.div(flexable)`
+const FeedBlockParking = styled.div`
     grid-row: 1;
     grid-column: 5;
+    display: flex;
 `;
 
 

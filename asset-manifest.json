@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sijang-2-manchan/static/css/main.073c9b0a.css",
+    "main.js": "/sijang-2-manchan/static/js/main.ee6d202d.js",
+    "static/js/787.1891d5da.chunk.js": "/sijang-2-manchan/static/js/787.1891d5da.chunk.js",
+    "static/media/toilets.png": "/sijang-2-manchan/static/media/toilets.79618280569fa63372e5.png",
+    "static/media/long-logo.svg": "/sijang-2-manchan/static/media/long-logo.b9679bbe8b418b384eb5e62e8eb739a1.svg",
+    "index.html": "/sijang-2-manchan/index.html",
+    "main.073c9b0a.css.map": "/sijang-2-manchan/static/css/main.073c9b0a.css.map",
+    "main.ee6d202d.js.map": "/sijang-2-manchan/static/js/main.ee6d202d.js.map",
+    "787.1891d5da.chunk.js.map": "/sijang-2-manchan/static/js/787.1891d5da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ee6d202d.js"
+  ]
+}

@@ -13,7 +13,7 @@ function Modal({ className, visible, children, onClose }) {
               {children}
             </ModalChildren>
             <ModalButton>
-              <button onClick={onClose}>확인</button>
+              <Button onClick={onClose}>확인</Button>
             </ModalButton>
           </ModalContent>
         </ModalInner>
@@ -25,6 +25,10 @@ function Modal({ className, visible, children, onClose }) {
 Modal.propTypes = {
   visible: PropTypes.bool,
 }
+
+const Button = styled.button`
+  width: 200px;
+`
 
 const ModalWrapper = styled.div`
   box-sizing: border-box;
@@ -57,12 +61,12 @@ const ModalInner = styled.div`
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
   background-color: #fff;
   border-radius: 10px;
-  width: 360px;
+  width: 390px;
   max-width: 480px;
   top: 50%;
   transform: translateY(-50%);
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 1px 20px;
 `
 
 const ModalContent = styled.div`
@@ -76,6 +80,7 @@ const ModalChildren = styled.div`
 
 const ModalButton = styled.div`
   grid-row: 2;
+  margin-top: 40px;
 `
 
 

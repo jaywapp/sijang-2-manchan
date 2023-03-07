@@ -50,10 +50,10 @@ function Body ( datas ){
     return(
         <BodyDiv>
             <SortDiv>
-                <Sort onConditionChange={onSortConditionChange}/>
+                {/* <Sort onConditionChange={onSortConditionChange}/> */}
             </SortDiv>
             <FilterDiv>
-                <Filter onConditionChange={onFilterConditionChange}/>
+                {/* <Filter onConditionChange={onFilterConditionChange}/> */}
             </FilterDiv>
             <FeedBlocksDiv>
                 <FeedBlocks/>

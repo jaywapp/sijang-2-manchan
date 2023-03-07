@@ -112,6 +112,25 @@ export const Button = styled.div`
     }
 `
 
+export const MapDiv = styled.div`
+    display: grid;
+`;
+
+export const MapHeader = styled.h2`
+    grid-row: 1;
+`
+
+export const MapDescription = styled.div`
+    grid-row: 2;
+    margin-bottom: 5px;
+`
+
+export const KakaoDiv = styled.div`
+    grid-row: 3;
+    width: 350px;
+    height: 350px;
+`
+
 export function Toilet( props ){
 
     if(props.hasToilet == 'Y')
